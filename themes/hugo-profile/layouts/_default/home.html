@@ -1,0 +1,13 @@
+{{ define "content" }}
+<div class="hero">
+    <h1>{{ .Site.Params.homeInfoParams.title }}</h1>
+    <p class="subtitle">{{ .Site.Params.homeInfoParams.content }}</p>
+    <div class="social-icons">
+        {{ range .Site.Params.socialIcons }}
+        <a href="{{ .url }}" target="_blank" title="{{ .name }}" class="social-icon">{{ .name }}</a>
+        {{ end }}
+    </div>
+</div>
+
+{{ .Content }}
+{{ end }}

@@ -1,0 +1,4 @@
+name = "Hugo Profile"
+license = "MIT"
+sourceRepo = "https://github.com/gurusabarish/hugo-profile"
+description = "A minimal, elegant, and mobile-friendly portfolio theme for Hugo"

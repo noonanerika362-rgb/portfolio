@@ -1,0 +1,61 @@
+baseURL = "https://noonanerika362-rgb.github.io/"
+languageCode = "en-us"
+title = "Erika Noonan - TPM & Change Governance"
+theme = "hugo-profile"
+
+[outputs]
+  home = ["HTML", "JSON"]
+
+[params]
+  title = "Erika Noonan"
+  description = "Senior Technical Program Manager specializing in global change governance, cloud & security"
+  author = "Erika Noonan"
+  profileMode = true
+  disableThemeToggle = false
+  
+  [params.homeInfoParams]
+    title = "Erika Noonan"
+    content = "Senior Technical Program Manager | Change Governance | Cloud & Security"
+    
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://linkedin.com/in/erika-noonan"
+    
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/noonanerika362-rgb"
+    
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:contact@example.com"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+    
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 2
+    
+  [[menu.main]]
+    identifier = "work"
+    name = "Featured Work"
+    url = "/work/"
+    weight = 3
+    
+  [[menu.main]]
+    identifier = "experience"
+    name = "Experience"
+    url = "/experience/"
+    weight = 4
+    
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 5
